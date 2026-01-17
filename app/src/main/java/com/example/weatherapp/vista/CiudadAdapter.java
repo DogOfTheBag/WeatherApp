@@ -56,6 +56,7 @@ public class CiudadAdapter extends RecyclerView.Adapter<CiudadAdapter.ciudadVH> 
         //en caso de que nos hagan el lio tenemos un icono para que no de error
         if (estado == null) return R.drawable.ic_desconocido;
 
+        /*Los iconos los he creado usando Vector Assets, como vimos en clase*/
         switch (estado) {
             case "Soleado": return R.drawable.ic_sol;
             case "Lluvia":  return R.drawable.ic_lluvia;
