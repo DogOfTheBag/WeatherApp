@@ -73,12 +73,4 @@ public abstract class AppDB extends RoomDatabase {
             }
         };
     }
-
-    /*creo que tengo que quitar esto y ponerlo en el adapter*/
-    public static class R_drawable {
-        public static int sol;
-        public static int nube;
-        public static int lluvia;
-        public static int nieve;
-    }
 }
