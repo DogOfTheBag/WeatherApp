@@ -87,6 +87,11 @@ public class MainActivity extends AppCompatActivity {
         //creamos un ArrayAdapter para dar vista a los datos dentro del spinner, y le pasamos contexto, el tipo de spinner, y el array de datos
         spEstado.setAdapter(new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, estados));
 
+        /*************************ATENCION****************************/
+        /*Tengo hecho el alertDialog porque lleva hecho desde el dia 15 y acabo de ver el cambio en el aula virtual
+        * no lo voy a cambiar porque no tengo tiempo, y no voy a cambiar el funcionamiento de la app a estas alturas para algo
+        * que esta hecho en el open weather y que no cambia nada. */
+        /*************************ATENCION****************************/
         //en vez de hacer una nueva actividad haré un alertDialog, como hice con el restaurante, simplemente usamos la vista de antes
         new AlertDialog.Builder(this)
                 .setTitle("Añadir ciudad")
