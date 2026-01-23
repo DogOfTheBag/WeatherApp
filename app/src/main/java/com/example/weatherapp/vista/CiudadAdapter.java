@@ -42,7 +42,7 @@ public class CiudadAdapter extends RecyclerView.Adapter<CiudadAdapter.ciudadVH> 
     public void onBindViewHolder(@NonNull ciudadVH v, int position){
         Ciudad c = lista.get(position);
         v.txtNombre.setText(c.getNombre());
-        v.txtTemp.setText(c.getTempMedia().toString());
+        v.txtTemp.setText("Temp media: " + c.getTempMedia() + "°C");
         v.txtEstado.setText(c.getEstado());
 
         //la razon por la que usamos un int está explicada en el método
